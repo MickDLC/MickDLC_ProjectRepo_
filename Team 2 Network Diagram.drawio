@@ -1,0 +1,83 @@
+<mxfile host="app.diagrams.net" modified="2023-09-14T01:25:42.451Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="sR5c2BPFh2aDdUhhV9W0" version="21.7.2" type="google">
+  <diagram name="Page-1" id="XBnbTzYaKGzwLp61XRmF">
+    <mxGraphModel grid="0" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sqUDbuYJrRxBl_-GvHNo-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sqUDbuYJrRxBl_-GvHNo-3" target="sqUDbuYJrRxBl_-GvHNo-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sqUDbuYJrRxBl_-GvHNo-3" value="Windows Server 2012&lt;br&gt;Domain Controller&lt;br&gt;File Server&lt;br&gt;Active Directory&lt;br&gt;DNS&lt;br&gt;&amp;nbsp;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server_2.svg;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="68" width="107" height="133.75" as="geometry" />
+        </mxCell>
+        <mxCell id="sqUDbuYJrRxBl_-GvHNo-4" value="Windows Server 2019&lt;br&gt;Domain Controller&lt;br&gt;File Server&lt;br&gt;Active Directory&lt;br&gt;DNS&lt;br&gt;&lt;br&gt;Infrastructure Master&lt;br&gt;PDC Emulator&lt;br&gt;Schema Master&lt;br&gt;Domain Naming Master&lt;br&gt;RID Master&lt;br&gt;&amp;nbsp;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server_2.svg;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="347" width="107" height="133.75" as="geometry" />
+        </mxCell>
+        <mxCell id="sqUDbuYJrRxBl_-GvHNo-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sqUDbuYJrRxBl_-GvHNo-5" target="sqUDbuYJrRxBl_-GvHNo-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="135" y="333" />
+              <mxPoint x="135" y="414" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sqUDbuYJrRxBl_-GvHNo-7" value="Joined to Domain" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="sqUDbuYJrRxBl_-GvHNo-6">
+          <mxGeometry x="-0.814" y="-3" relative="1" as="geometry">
+            <mxPoint x="-45" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sqUDbuYJrRxBl_-GvHNo-5" value="Windows 10 Client" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/VirtualMachineWindows.svg;" vertex="1" parent="1">
+          <mxGeometry x="223" y="291" width="91" height="83.72" as="geometry" />
+        </mxCell>
+        <mxCell id="sqUDbuYJrRxBl_-GvHNo-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sqUDbuYJrRxBl_-GvHNo-10" target="sqUDbuYJrRxBl_-GvHNo-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="501" y="423" />
+              <mxPoint x="249" y="423" />
+              <mxPoint x="249" y="414" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sqUDbuYJrRxBl_-GvHNo-12" value="Joined to Domain" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="sqUDbuYJrRxBl_-GvHNo-11">
+          <mxGeometry x="-0.4075" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sqUDbuYJrRxBl_-GvHNo-10" value="SSH Key Server" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/VM_Linux.svg;" vertex="1" parent="1">
+          <mxGeometry x="450" y="291" width="101.09" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="sqUDbuYJrRxBl_-GvHNo-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.009;entryY=0.398;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sqUDbuYJrRxBl_-GvHNo-13" target="sqUDbuYJrRxBl_-GvHNo-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sqUDbuYJrRxBl_-GvHNo-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sqUDbuYJrRxBl_-GvHNo-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="688.5999999999999" y="414" as="sourcePoint" />
+            <mxPoint x="42.9999065419745" y="453.28" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="689" y="612" />
+              <mxPoint x="341" y="612" />
+              <mxPoint x="341" y="453" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sqUDbuYJrRxBl_-GvHNo-18" value="Joined to Domain" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="sqUDbuYJrRxBl_-GvHNo-17">
+          <mxGeometry x="-0.3066" y="-2" relative="1" as="geometry">
+            <mxPoint x="-35" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sqUDbuYJrRxBl_-GvHNo-13" value="Mick&#39;s Red Machine" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/VM_Linux.svg;" vertex="1" parent="1">
+          <mxGeometry x="649" y="281.72" width="101.09" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="sqUDbuYJrRxBl_-GvHNo-19" value="MK.pub" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#7FBA42;container=0;" vertex="1" parent="1">
+          <mxGeometry x="701" y="207" width="25" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="sqUDbuYJrRxBl_-GvHNo-20" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#DA4026;" vertex="1" parent="1">
+          <mxGeometry x="658" y="209" width="25" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="sqUDbuYJrRxBl_-GvHNo-22" value="MK.pub" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.security.key_permissions;fillColor=#7FBA42;container=0;" vertex="1" parent="1">
+          <mxGeometry x="458" y="218" width="25" height="53" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
