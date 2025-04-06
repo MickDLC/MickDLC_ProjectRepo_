@@ -1,0 +1,20 @@
+---
+- hosts: linux
+  remote_user: skywalker
+  become: true
+
+  tasks:
+  - name: install epel
+    dnf:
+      name: epel-release
+      state: latest
+
+  - name: install nrpe
+    dnf:
+      name: nrpe
+      state: latest
+  - name: install nagios plugins
+    dnf:
+      name: nagios-plugins
+      state: latest
+      skip_broken: yes
